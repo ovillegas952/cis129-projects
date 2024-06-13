@@ -1,5 +1,9 @@
 """
-Omar Villegas, CIS 129, Coffee Shop Simulator that prints a reciept once the user inputs an amount.
+Author:Omar Villegas
+Professor:Troy Adams
+Course:CIS 129 
+Description:
+Coffee Shop Simulator that prints a reciept once the user inputs an amount.
 """
 # get user input
 num_of_coffees = input("How many coffees would you like?\n")
