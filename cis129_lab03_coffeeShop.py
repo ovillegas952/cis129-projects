@@ -1,11 +1,13 @@
 """
-Omar Villegas
+Omar Villegas, CIS 129, Coffee Shop Simulator that prints a reciept once the user inputs an amount.
 """
 # get user input
 num_of_coffees = input("How many coffees would you like?\n")
 
 # get user input
 num_of_muffins = input("How many muffins would you like?\n")
+
+
 
 # prices 
 coffee_price = 5
