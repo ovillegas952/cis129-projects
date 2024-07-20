@@ -1,4 +1,3 @@
-
 # fig03_02.py
 """Class average program with sentinel-controlled iteration."""
 
@@ -28,11 +27,11 @@ def get_valid_int(prompt, min_value, max_value, sentinel_value):
 total = 0  # sum of grades
 grade_counter = 0 # number of grades entered
 
-# processing phase
+
 grade = get_valid_int('Enter grade, -1 to end: ', 0, 100, -1)  # get one grade
-
+# opens file for writing
 grades_file = open('grades.txt', 'w')
-
+# while loop that checks for sentinel value
 while grade != -1:
     total += grade
     grade_counter += 1
@@ -46,9 +45,9 @@ if grade_counter != 0:
 else:
     print('No grades were entered')
 grades_file.close()
-#opens grade file in reading mode
+# makes grade file in reading mode
 grades_file = open('grades.txt', 'r')
-# for statement that displays the total, count, and grade average.
+# for loop that displays total, counter and average
 for line in grades_file:
     print(line)
     total += int(line)
